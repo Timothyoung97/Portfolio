@@ -17,7 +17,7 @@ import {
 
 import { HamburgerIcon } from '@chakra-ui/icons'
 
-const LinkItem = ({ href, path, children}) => {
+const LinkItem = ({ href, path, children }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
@@ -50,7 +50,7 @@ const Navbar = props => {
                 display="flex" 
                 p={2} 
                 maxW="container.md" 
-                wrap="wraop" 
+                wrap="wrap" 
                 align="center" 
                 justify="space-between"
             >
