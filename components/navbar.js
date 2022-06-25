@@ -14,15 +14,15 @@ import {
     IconButton,
     useColorModeValue
 } from '@chakra-ui/react'
-
 import { HamburgerIcon } from '@chakra-ui/icons'
-import ThemeToggleButton from './theme-toggle-button.js'
+import ThemeToggleButton from './theme-toggle-button'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
-        <NextLink href={href}>
+        <NextLink href={href} passHref scroll={false}>
             <Link
                 p={2}
                 bg={active ? 'grassTeal' : undefined}
@@ -62,6 +62,7 @@ const Navbar = props => {
                         <Logo />
                     </Heading>
                 </Flex>
+
                 <Stack
                     direction={{ base: 'column', md: 'row' }}
                     display={{ base: 'none', md: 'flex' }}
@@ -71,10 +72,22 @@ const Navbar = props => {
                     mt={{ base: 4, md: 0 }}
                 >
                     <LinkItem href="/works" path={path}>
-                        Works
+                        Works 🕹️
                     </LinkItem>
                     <LinkItem href="/posts" path={path}>
-                        Posts
+                        Posts 📝
+                    </LinkItem>
+                    <LinkItem
+                        target="_blank"
+                        href="https://github.com/Timothyoung97"
+                        path={path}
+                        display="inline-flex"
+                        alignItems="center"
+                        style={{ gap: 4 }}
+                        pl={2}
+                    >
+                        GitHub
+                        <IoLogoGithub />
                     </LinkItem>
                 </Stack>
 
@@ -91,21 +104,21 @@ const Navbar = props => {
                         <MenuList>
                             <NextLink href="/" passHref>
                                 <MenuItem as={Link}>
-                                    About
+                                    📟 About
                                 </MenuItem>
                             </NextLink>
                             <NextLink href="/works" passHref>
                                 <MenuItem as={Link}>
-                                    Works
+                                    🕹️ Works
                                 </MenuItem>
                             </NextLink>
                             <NextLink href="/posts" passHref>
                                 <MenuItem as={Link}>
-                                    Posts
+                                    📝 Posts 
                                 </MenuItem>
                             </NextLink>
                             <MenuItem as={Link} href="https://github.com/Timothyoung97">
-                                Visit Github
+                                    👨‍💻 GitHub 
                             </MenuItem>
                         </MenuList>
                         </Menu>
