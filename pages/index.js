@@ -1,10 +1,13 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
+import { Button, Container, Box, Icon, Heading, Image, Link, List, ListItem, SimpleGrid, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 import Section from '../components/Section'
 import Paragraph from '../components/Paragraph'
+import { GridItem } from '../components/grid-item'
+import { IoLogoLinkedin, IoLogoGithub, IoMailOutline } from 'react-icons/io5'
+
 
 const Page = () => {
     return (
@@ -18,7 +21,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Timothy Yang
                         </Heading>
-                        <p>Aspiring Software Developer</p>
+                        <p>I leave this blank as</p>
                     </Box>
 
                     <Box
@@ -43,7 +46,7 @@ const Page = () => {
 
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        Work
+                        About me 
                     </Heading>
                     <Paragraph>Tim love Fanny.</Paragraph>
                     <Box align="center" my={4}>
@@ -57,7 +60,7 @@ const Page = () => {
 
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
-                        Bio
+                        Bio 
                     </Heading>
                     <BioSection>
                         <BioYear>
@@ -73,6 +76,21 @@ const Page = () => {
                     </Heading>
                     Game Development, 
                     {' '}<Link href="https://www.google.com">Example</Link>
+                </Section>
+
+                <Section delay={0.2}>
+                    <Heading as="h3" variant="section-title">
+                        Let's Connect!
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://www.linkedin.com/in/shiyuan-yang97/" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={ <Icon as={ IoLogoLinkedin} />} >                                    @Timothy-Yang
+                                </Button>
+                            </Link>
+                        </ListItem>
+
+                    </List>
                 </Section>
 
             </Container>
