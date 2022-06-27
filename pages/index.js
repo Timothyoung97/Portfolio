@@ -6,7 +6,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Section from '../components/Section'
 import Paragraph from '../components/Paragraph'
 import { GridItem } from '../components/grid-item'
-import { IoLogoLinkedin, IoLogoGithub, IoMailOutline } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoMailOutline, IoLogoTwitter } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -53,7 +53,7 @@ const Page = () => {
 
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        About Me 👨‍💻
+                        👨‍💻 About Me
                     </Heading>
                     <Paragraph>
                         Timothy Yang is an incoming 3rd year undergraduate majoring in Computer Science at NUS. He is interested in the field of Computer Grahpics and Game Development. He enjoys creating games and spending time on his computer. Sometimes, he participates in hackathons to expose himself to new technologies and to learn new things. During his free time, he likes to play <Link href="https://www.cyberpunk.net/" target="_blank">Cyberpunk 2077</Link> and catch up on movies from the 90s. Currently he is working on a project called <Link href="https://github.com/Timothyoung97/KAZEngine" target="_blank">KAZEngine (Game Engine)</Link> to help him understand game engine architecture and learn C++. 
@@ -69,7 +69,7 @@ const Page = () => {
 
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
-                        Bio 📽️
+                        📽️ Bio
                     </Heading>
                     <BioSection>
                         <BioYear>
@@ -105,25 +105,45 @@ const Page = () => {
 
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">  
-                        My Interests
+                        🎮 My Interests
                     </Heading>
-                    Game Development, 
-                    {' '}<Link href="https://www.google.com">Example</Link>
+                    Game Development, Cycling, Running, Video Game, 
+
                 </Section>
 
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
-                        Let's Connect!
+                        🤝 Let's Connect
                     </Heading>
                     <List>
                         <ListItem>
                             <Link href="https://www.linkedin.com/in/shiyuan-yang97/" target="_blank">
-                                <Button variant="ghost" colorScheme="teal" leftIcon={ <Icon as={ IoLogoLinkedin} />}>
-                                    @Timothy-Yang
+                                <Button variant="ghost" colorScheme="teal" leftIcon={ <Icon as={ IoLogoLinkedin } />}>
+                                    Timothy-Yang
                                 </Button>
                             </Link>
                         </ListItem>
-
+                        <ListItem>
+                            <Link href="https://github.com/Timothyoung97" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={ <Icon as={ IoLogoGithub } />}>
+                                    Timothyoung97
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://twitter.com/timothyoung97" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={ <Icon as={ IoLogoTwitter } />}>
+                                    Timothyoung97
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="mailto:timothyoung97@gmail.com" target="_blank">
+                                <Button variant="ghost" colorScheme="teal" leftIcon={ <Icon as={ IoMailOutline } />}>
+                                    Timothyoung97@gmail.com
+                                </Button>
+                            </Link>
+                        </ListItem>
                     </List>
                 </Section>
 
@@ -133,3 +153,5 @@ const Page = () => {
 }
 
 export default Page
+
+// {' '}<Link href="https://www.google.com">Example</Link>
