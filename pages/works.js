@@ -5,10 +5,12 @@ import Layout from "../components/layouts/article"
 
 import thumbCyberacer from '../public/images/works/cyberacer.png'
 import thumbPeterGriffin from '../public/images/works/CS2103T-ip.png'
+import thumbTuitione from '../public/images/works/CS2103T-tp.png'
+import thumbDDiary from '../public/images/works/ddiary.png'
 
 const Works = () => {
     return (
-        <Layout>
+        <Layout title="Works">
             <Container>
                 <Heading as="h3" fontSize={20} mb={4}>
                     Software
@@ -16,43 +18,60 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section>
                         <WorkGridItem id="cyberacer" title="Peter Griffin Task Tracker" thumbnail={thumbPeterGriffin}>
-                        A simple to-do list application themed around my favourite cartoon character, Peter Griffin, from Family Guy
+                            A simple to-do list application themed around my favourite cartoon characters, Brian Griffin and Peter Griffin, from Family Guy
                         </WorkGridItem>
                     </Section>
-                    <Section>
-                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
-                            A pixelated racing game made with Unity.
-                        </WorkGridItem>
-                    </Section>
-                </SimpleGrid>
-
-                <Heading as="h3" fontSize={20} mb={4}>
-                    Game
-                </Heading>
-                <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.1}>
-                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
-                            A pixelated racing game made with Unity.
+                        <WorkGridItem id="cyberacer" title="TuitiONE" thumbnail={thumbTuitione}>
+                            An administrative desktop application targeted to help admin clerks in tuition centres to manage the enrolment of students and the scheduling of classes
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
 
-                <Heading as="h3" fontSize={20} mb={4}>
-                    Hackaton
-                </Heading>
-                <SimpleGrid columns={[1,1,2]} gap={6}>
-                    <Section delay={0.2}>
-                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
-                            A pixelated racing game made with Unity.
-                        </WorkGridItem>
-                    </Section>
-                </SimpleGrid>
+                <Section delay={0.2}>
+                    <Divider my={6}/>
+                    <Heading as="h3" fontSize={20} mb={4}>
+                        Game
+                    </Heading>
+                </Section>
 
-                <Heading as="h3" fontSize={20} mb={4}>
-                    Misc
-                </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.3}>
+                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
+                            A retro-style arcade racing game with pixelated graphics developed using C# and Unity 3D Engine
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay={0.3}>
+                        <WorkGridItem id="cyberacer" title="Doodle's Diary" thumbnail={thumbDDiary}>
+                            A cartoony 2.5D tower defence game developed using C# and Unity 3D Engine
+                        </WorkGridItem>
+                    </Section>
+                </SimpleGrid>
+
+                <Section delay={0.4}>
+                    <Divider my={6}/>
+                    <Heading as="h3" fontSize={20} mb={4}>
+                        Hackaton
+                    </Heading>
+                </Section>
+
+                <SimpleGrid columns={[1,1,2]} gap={6}>
+                    <Section delay={0.5}>
+                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
+                            A pixelated racing game made with Unity.
+                        </WorkGridItem>
+                    </Section>
+                </SimpleGrid>
+
+                <Section delay={0.6}>
+                    <Divider my={6}/>
+                    <Heading as="h3" fontSize={20} mb={4}>
+                        Misc
+                    </Heading>
+                </Section>
+                
+                <SimpleGrid columns={[1,1,2]} gap={6}>
+                    <Section delay={0.7}>
                         <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
                             A pixelated racing game made with Unity.
                         </WorkGridItem>

@@ -107,7 +107,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">  
                         🎮 My Interests
                     </Heading>
-                    Game Development, Cycling, Running, Video Game, 
+                    Game Development, Cycling, Running, Video Game, Movies
 
                 </Section>
 
