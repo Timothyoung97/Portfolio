@@ -16,7 +16,7 @@ const Works = () => {
         <Layout title="Works">
             <Container>
                 <Heading as="h3" fontSize={20} mb={4}>
-                    Software
+                    📱 Software
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section>
@@ -34,7 +34,7 @@ const Works = () => {
                 <Section delay={0.2}>
                     <Divider my={6}/>
                     <Heading as="h3" fontSize={20} mb={4}>
-                        Game
+                        🎮 Game
                     </Heading>
                 </Section>
 
@@ -54,7 +54,7 @@ const Works = () => {
                 <Section delay={0.4}>
                     <Divider my={6}/>
                     <Heading as="h3" fontSize={20} mb={4}>
-                        Hackaton
+                        ⌨️ Hackaton
                     </Heading>
                 </Section>
 
@@ -69,7 +69,7 @@ const Works = () => {
                 <Section delay={0.6}>
                     <Divider my={6}/>
                     <Heading as="h3" fontSize={20} mb={4}>
-                        Misc
+                        ⚙️ Misc
                     </Heading>
                 </Section>
                 
