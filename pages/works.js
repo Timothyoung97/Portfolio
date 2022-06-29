@@ -1,12 +1,15 @@
 import { Container, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
 import Section from "../components/Section"
-import { WorkGridItem } from "../components/grid-item"
+import { GridItem, WorkGridItem } from "../components/grid-item"
 import Layout from "../components/layouts/article"
 
 import thumbCyberacer from '../public/images/works/cyberacer.png'
 import thumbPeterGriffin from '../public/images/works/CS2103T-ip.png'
 import thumbTuitione from '../public/images/works/CS2103T-tp.png'
 import thumbDDiary from '../public/images/works/ddiary.png'
+import thumbRendr from '../public/images/works/rendr.png'
+import thumbVoxelBot from '../public/images/works/voxelBot.png'
+import thumbPortfolio from '../public/images/works/portfolio.png'
 
 const Works = () => {
     return (
@@ -57,8 +60,8 @@ const Works = () => {
 
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.5}>
-                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
-                            A pixelated racing game made with Unity.
+                        <WorkGridItem id="cyberacer" title="Rendr" thumbnail={thumbRendr}>
+                            A customized report rendering project co-deved during GS ENGage 2021 (Goldman Sachs Engineering Engage)
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
@@ -72,9 +75,14 @@ const Works = () => {
                 
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.7}>
-                        <WorkGridItem id="cyberacer" title="Cyberacer" thumbnail={thumbCyberacer}>
-                            A pixelated racing game made with Unity.
+                        <WorkGridItem id="cyberacer" title="Voxel Bot" thumbnail={thumbVoxelBot}>
+                            A mini voxel robot model made using MagicaVoxel and rendered with Blender
                         </WorkGridItem>
+                    </Section>
+                    <Section delay={0.7}>
+                        <GridItem title="Portfolio" thumbnail={thumbPortfolio} href="https://github.com/Timothyoung97">
+                            You're looking right at me!
+                        </GridItem>
                     </Section>
                 </SimpleGrid>
 
