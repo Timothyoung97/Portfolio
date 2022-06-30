@@ -20,7 +20,7 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="cyberacer" title="Peter Griffin Task Tracker" thumbnail={thumbPeterGriffin}>
+                        <WorkGridItem id="petergriffin" title="Peter Griffin Task Tracker" thumbnail={thumbPeterGriffin}>
                             A simple to-do list application themed around my favourite cartoon characters, Brian Griffin and Peter Griffin, from Family Guy
                         </WorkGridItem>
                     </Section>
