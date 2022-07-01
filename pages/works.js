@@ -45,7 +45,7 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.3}>
-                        <WorkGridItem id="cyberacer" title="Doodle's Diary" thumbnail={thumbDDiary}>
+                        <WorkGridItem id="ddiary" title="Doodle's Diary" thumbnail={thumbDDiary}>
                             A cartoony 2.5D tower defence game developed using C# and Unity 3D Engine
                         </WorkGridItem>
                     </Section>

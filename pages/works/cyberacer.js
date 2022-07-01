@@ -11,7 +11,7 @@ import {
     UnorderedList
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage, Meta, MetaB } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -59,11 +59,17 @@ return (
                         Devlog{' '}<ExternalLinkIcon />
                     </Link>
                 </ListItem>
+                <ListItem>
+                    <Meta>Orbital Level</Meta>
+                    <Link href="https://credentials.nus.edu.sg/66e8881b-fb0b-4304-ae79-77ef3ac0d8f9" isExternal>
+                        Apollo 11{' '}<ExternalLinkIcon />
+                    </Link>
+                </ListItem>
             </List>
             <Divider my={6}/>
             <List ml={4} my={4}>
                 <ListItem>
-                    <Meta>Collaborator</Meta>
+                    <MetaB>Collaborator</MetaB>
                     <UnorderedList my={2} mx={6}>
                         <ListItem>
                             <Link href="https://www.linkedin.com/in/david-eom/" isExternal>

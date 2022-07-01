@@ -11,7 +11,7 @@ import {
     AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage, Meta, MetaB } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -64,7 +64,7 @@ const Work = () => {
                 <Divider my={6}/>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Collaborator</Meta>
+                        <MetaB>Collaborator</MetaB>
                         <UnorderedList my={2} mx={6}>
                             <ListItem>
                                 <Link href="https://www.linkedin.com/in/justin-ee-9a338b208/" isExternal>
