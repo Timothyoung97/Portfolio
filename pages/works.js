@@ -25,7 +25,7 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.1}>
-                        <WorkGridItem id="cyberacer" title="TuitiONE" thumbnail={thumbTuitione}>
+                        <WorkGridItem id="tuitione" title="TuitiONE" thumbnail={thumbTuitione}>
                             An administrative desktop application targeted to help admin clerks in tuition centres to manage the enrolment of students and the scheduling of classes
                         </WorkGridItem>
                     </Section>

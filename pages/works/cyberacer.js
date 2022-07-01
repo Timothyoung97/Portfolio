@@ -1,12 +1,14 @@
 import {
     Container,
     Badge,
+    Divider,
     Link,
     List,
     ListItem,
     SimpleGrid,
     Text,
-    AspectRatio
+    AspectRatio,
+    UnorderedList
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -57,17 +59,26 @@ return (
                         Devlog{' '}<ExternalLinkIcon />
                     </Link>
                 </ListItem>
+            </List>
+            <Divider my={6}/>
+            <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Collaborator</Meta>
-                    <Link href="https://www.linkedin.com/in/david-eom/" isExternal>
-                        Yan Xiao Zhi{' '}<ExternalLinkIcon />
-                    </Link>
+                    <UnorderedList my={2} mx={6}>
+                        <ListItem>
+                            <Link href="https://www.linkedin.com/in/david-eom/" isExternal>
+                                Yan Xiao Zhi{' '}<ExternalLinkIcon />
+                            </Link>
+                        </ListItem>
+                    </UnorderedList>
                 </ListItem>
             </List>
 
+            <Divider my={6}/>
             <WorkImage src="/images/works/cyberacer_logo.png" alt="cyberacerLogo"/>
             <WorkImage src="/images/works/cyberacer_01.png" alt="cyberacer"/>
             <WorkImage src="/images/works/cyberacer_02.png" alt="cyberacer"/>
+        
         </Container>
     </Layout>
 )
