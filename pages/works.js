@@ -60,7 +60,7 @@ const Works = () => {
 
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.5}>
-                        <WorkGridItem id="cyberacer" title="Rendr" thumbnail={thumbRendr}>
+                        <WorkGridItem id="rendr" title="Rendr" thumbnail={thumbRendr}>
                             A customized report rendering project co-deved during GS ENGage 2021 (Goldman Sachs Engineering Engage)
                         </WorkGridItem>
                     </Section>
