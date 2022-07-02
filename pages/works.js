@@ -1,6 +1,6 @@
 import { Container, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
 import Section from "../components/Section"
-import { GridItem, WorkGridItem } from "../components/grid-item"
+import { GridItem, GridItemExt, WorkGridItem } from "../components/grid-item"
 import Layout from "../components/layouts/article"
 
 import thumbCyberacer from '../public/images/works/cyberacer.png'
@@ -75,14 +75,14 @@ const Works = () => {
                 
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.7}>
-                        <WorkGridItem id="cyberacer" title="Voxel Bot" thumbnail={thumbVoxelBot}>
+                        <GridItemExt title="Voxel Bot" thumbnail={thumbVoxelBot}>
                             A mini voxel robot model made using MagicaVoxel and rendered with Blender
-                        </WorkGridItem>
+                        </GridItemExt>
                     </Section>
                     <Section delay={0.7}>
-                        <GridItem title="Portfolio" thumbnail={thumbPortfolio} href="https://github.com/Timothyoung97">
-                            You're looking right at me!
-                        </GridItem>
+                        <GridItemExt title="Portfolio" thumbnail={thumbPortfolio} href="https://github.com/Timothyoung97">
+                            You're looking right at me! 
+                        </GridItemExt>
                     </Section>
                 </SimpleGrid>
 
