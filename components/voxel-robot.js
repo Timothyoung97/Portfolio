@@ -74,7 +74,7 @@ const VoxelRobot = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/voxel/Blender/project1-baked.glb', {
+      loadGLTFModel(scene, '/voxel/Blender/project1.glb', {
         receiveShadow: true,
         castShadow: true
       }).then(() => {
