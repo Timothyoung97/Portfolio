@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbTrial from '../public/images/contents/trial.jpg'
+import thumbGit from '../public/images/contents/git.png'
 
 const Posts = () => (
     <Layout title="Posts">
@@ -15,7 +15,7 @@ const Posts = () => (
                 <SimpleGrid columns={[1,2,2]} gap={6}>
                     <GridItem 
                         title="Git Commands" 
-                        thumbnail={ thumbTrial } 
+                        thumbnail={ thumbGit } 
                         href="https://dev.to/timothyoung97/git-commands-3pkh"
                     />
                 </SimpleGrid>

@@ -73,12 +73,6 @@ const Page = () => {
                     </Heading>
                     <BioSection>
                         <BioYear>
-                            1997
-                        </BioYear>
-                        Born on Earth-1218 (Marvel) | Earth-Prime (DC)
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>
                             2020
                         </BioYear>
                         Matriculated at National University of Singapore (NUS)
