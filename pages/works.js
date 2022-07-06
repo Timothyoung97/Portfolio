@@ -75,7 +75,7 @@ const Works = () => {
                 
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.7}>
-                        <GridItemExt title="Voxel Bot" thumbnail={thumbVoxelBot}>
+                        <GridItemExt title="Voxel Bot" thumbnail={thumbVoxelBot} href="https://skfb.ly/ovUsG">
                             A mini voxel robot model made using MagicaVoxel and rendered with Blender
                         </GridItemExt>
                     </Section>
