@@ -1,8 +1,16 @@
 import Head from 'next/head'
 import Navbar from '../navbar.js'
+import dynamic from 'next/dynamic'
 import NoSsr from '../no-ssr'
 import { Box, Container } from '@chakra-ui/react'
 import VoxelRobot from '../voxel-robot'
+import VoxelRobotLoader from '../voxel-robot-loader'
+
+const LazyVoxelRobot = dynamic(() => import('../voxel-robot'), {
+    ssr: false,
+    loading: () => <VoxelRobotLoader />
+  })
+
 
 const Main = ({ children, router}) => {
     return (
@@ -15,9 +23,7 @@ const Main = ({ children, router}) => {
             <Navbar path={router.asPath} />
 
             <Container maxW="container.md" pt={14}>
-                <NoSsr>
-                    <VoxelRobot/>
-                </NoSsr>
+                <LazyVoxelRobot />
                 {children}
             </Container>
         </Box>

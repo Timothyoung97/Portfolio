@@ -17,6 +17,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub, IoCodeWorking} from 'react-icons/io5'
+import Music from './music'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
@@ -92,7 +93,12 @@ const Navbar = props => {
                 </Stack>
 
                 <Box flex={1} align="right">
+                    <Box ml={2} display="inline-block">
+                        <Music />
+                    </Box>
+                    
                     <ThemeToggleButton />
+
                     <Box ml={2} display={{base: 'inline-block', md:'none'}}>
                         <Menu isLazy id="navbar-menu">
                             <MenuButton
