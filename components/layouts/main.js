@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../navbar.js'
 import dynamic from 'next/dynamic'
-import NoSsr from '../no-ssr'
 import { Box, Container } from '@chakra-ui/react'
-import VoxelRobot from '../voxel-robot'
 import VoxelRobotLoader from '../voxel-robot-loader'
 
 const LazyVoxelRobot = dynamic(() => import('../voxel-robot'), {

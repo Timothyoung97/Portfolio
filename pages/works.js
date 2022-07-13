@@ -1,6 +1,6 @@
-import { Container, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
+import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react"
 import Section from "../components/Section"
-import { GridItem, GridItemExt, WorkGridItem } from "../components/grid-item"
+import { GridItemExt, WorkGridItem } from "../components/grid-item"
 import Layout from "../components/layouts/article"
 
 import thumbCyberacer from '../public/images/works/cyberacer.png'

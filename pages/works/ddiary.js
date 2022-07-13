@@ -5,10 +5,7 @@ import {
     Link,
     List,
     ListItem,
-    SimpleGrid,
-    Text,
-    UnorderedList,
-    AspectRatio
+    UnorderedList
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta, MetaB } from '../../components/work'

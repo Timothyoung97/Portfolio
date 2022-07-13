@@ -4,9 +4,7 @@ import {
     Link,
     List,
     ListItem,
-    SimpleGrid,
-    Text,
-    AspectRatio
+    SimpleGrid
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
