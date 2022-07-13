@@ -17,10 +17,10 @@ const Work = () => {
         <Layout title="Doodle's Diary">
             <Container>
                 <Title>
-                    Doodle's Diary <Badge>2022 - Ongoing</Badge>
+                    Doodle&apos;s Diary <Badge>2022 - Ongoing</Badge>
                 </Title>
                 <P>
-                    Build Towers! Swing your sword! Challenge yourself and help Doodle defend his home castle away from the evil spirits! Doodle's Diary is a single-player 2.5D tower defence game developed while I was undertaking the module CS3247 Game Development. The project is co-deved by a team of 6 NUS students. The project will undergo further development during AY22/23 Sem 1 under CS4350 Game Development Project (Continuation of CS3247).
+                    Build Towers! Swing your sword! Challenge yourself and help Doodle defend his home castle away from the evil spirits! Doodle&apos;s Diary is a single-player 2.5D tower defence game developed while I was undertaking the module CS3247 Game Development. The project is co-deved by a team of 6 NUS students. The project will undergo further development during AY22/23 Sem 1 under CS4350 Game Development Project (Continuation of CS3247).
                 </P>
                 <List ml={4} my={4}>
                 <ListItem>

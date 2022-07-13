@@ -19,7 +19,7 @@ const Work = () => {
                     Peter Griffin Task Tracker <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A simple "Family Guy" themed to-do list application was developed using Java and JavaFX. You can set tasks with deadlines, timing specific events or simply to-dos to complete. This application is an individual course project which I undertook as part of the CS2103T module at NUS.
+                    A simple &quot;Family Guy&quot; themed to-do list application was developed using Java and JavaFX. You can set tasks with deadlines, timing specific events or simply to-dos to complete. This application is an individual course project which I undertook as part of the CS2103T module at NUS.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

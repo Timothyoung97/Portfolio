@@ -81,7 +81,7 @@ const Works = () => {
                     </Section>
                     <Section delay={0.7}>
                         <GridItemExt title="Portfolio" thumbnail={thumbPortfolio} href="https://github.com/Timothyoung97">
-                            You're looking right at me! 
+                            You&apos;re looking right at me! 
                         </GridItemExt>
                     </Section>
                 </SimpleGrid>
