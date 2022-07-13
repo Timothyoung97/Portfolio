@@ -14,7 +14,7 @@ const Page = () => {
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.100')} p={3} mb={6} align="center">
                     <Text>
                         Welcome and hello there
-                        <span class="wave">
+                        <span className="wave">
                             👋
                         </span>
                     </Text>
@@ -106,7 +106,7 @@ const Page = () => {
 
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
-                        🤝 Let's Connect
+                        🤝 Let&apos;s Connect
                     </Heading>
                     <List>
                         <ListItem>
