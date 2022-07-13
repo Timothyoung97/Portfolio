@@ -3,8 +3,8 @@ import { Button, Container, Box, Icon, Heading, Image, Link, List, ListItem, Tex
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
-import Section from '../components/Section'
-import Paragraph from '../components/Paragraph'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 import { IoLogoLinkedin, IoLogoGithub, IoMailOutline, IoLogoTwitter } from 'react-icons/io5'
 
 const Page = () => {
