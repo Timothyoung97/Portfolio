@@ -80,7 +80,7 @@ const Works = () => {
                         </GridItemExt>
                     </Section>
                     <Section delay={0.7}>
-                        <GridItemExt title="Portfolio" thumbnail={thumbPortfolio} href="https://github.com/Timothyoung97">
+                        <GridItemExt title="Portfolio" thumbnail={thumbPortfolio} href="https://github.com/Timothyoung97/Portfolio">
                             You&apos;re looking right at me! 
                         </GridItemExt>
                     </Section>
