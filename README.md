@@ -4,7 +4,7 @@
 
 This is a portfolio website for Timothy Young.
 
-### Stack
+### Tools
 
 - [Next.js](https://nextjs.org/)
 - [Chakra UI](https://chakra-ui.com/)
