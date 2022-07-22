@@ -49,8 +49,8 @@ const Work = () => {
                 </List>
                 <WorkImage src="/images/works/CS2103T-ip_logo.png" alt="Peter Griffin Task Tracker" />
                 <SimpleGrid columns={2} gap={1}>
-                    <WorkImage src="/images/works/CS2103T-ip_01.png" alt="Peter Griffin Task Tracker" />
-                    <WorkImage src="/images/works/CS2103T-ip_02.png" alt="Peter Griffin Task Tracker" />
+                    <WorkImage src="/images/works/CS2103T-ip_01.png" alt="Peter Griffin Task Tracker 1" />
+                    <WorkImage src="/images/works/CS2103T-ip_02.png" alt="Peter Griffin Task Tracker 2" />
                 </SimpleGrid>
             </Container>
         </Layout>
