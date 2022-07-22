@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../navbar.js'
 import dynamic from 'next/dynamic'
 import { Box, Container } from '@chakra-ui/react'
+import Footer from '../footer'
 import VoxelRobotLoader from '../voxel-robot-loader'
 
 const LazyVoxelRobot = dynamic(() => import('../voxel-robot'), {
@@ -30,6 +31,7 @@ const Main = ({ children, router}) => {
             <Container maxW="container.md" pt={14}>
                 <LazyVoxelRobot />
                 {children}
+                <Footer />
             </Container>
         </Box>
     )
