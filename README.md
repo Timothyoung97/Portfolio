@@ -10,6 +10,8 @@ This is a portfolio website for Timothy Young.
 - [Chakra UI](https://chakra-ui.com/)
 - [Three.js](https://threejs.org/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [Blender](https://www.blender.org/)
+- [MagicaVoxel](https://www.magicavoxel.com/)
 
 ### Project Directory
 
