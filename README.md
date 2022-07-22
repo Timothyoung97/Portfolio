@@ -26,3 +26,7 @@ $PROJECT_ROOT
 │   # Static files for images and 3d model file
 └── public
 ```
+
+### Credits
+
+- [Takuya Matsuyama's Portfolio](https://www.craftz.dog/)
