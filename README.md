@@ -1,4 +1,4 @@
-# 👨‍💻 [Timothyoung's Portfolio](https://www.timothyoung97.com/)
+# 👨‍💻 [Timothyoung's Portfolio](https://timothyoung97.com/)
 
 ### About
 
