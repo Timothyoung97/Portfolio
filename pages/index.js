@@ -27,7 +27,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Timothy Yang
                         </Heading>
-                        <p>Aspiring Game Developer</p>
+                        <p>Aspiring Game Developer & Software Engineerer</p>
                     </Box>
 
                     <Box
@@ -55,7 +55,7 @@ const Page = () => {
                         👨‍💻 About Me
                     </Heading>
                     <Paragraph>
-                        Timothy Yang is an incoming 3rd year undergraduate majoring in Computer Science at NUS. He is interested in the field of Computer Grahpics and Game Development. He enjoys creating games and spending time on his computer. Sometimes, he participates in hackathons to expose himself to new technologies and to learn new things. During his free time, he likes to play <Link href="https://www.cyberpunk.net/" target="_blank">Cyberpunk 2077</Link> and catch up on movies from the 90s. Currently he is working on a project called <Link href="https://github.com/Timothyoung97/KAZEngine" target="_blank">KAZEngine (Game Engine)</Link> to help him understand game engine architecture and learn C++. 
+                        Timothy Yang is an incoming 3rd year undergraduate majoring in Computer Science at NUS. He is interested in the field of Computer Grahpics and Game Development. He enjoys creating softwares, games and spending time on his computer. Sometimes, he participates in hackathons to expose himself to new technologies and to learn new things. During his free time, he likes to play <Link href="https://www.cyberpunk.net/" target="_blank">Cyberpunk 2077</Link> and catch up on movies from the 90s. Currently he is working on a project called <Link href="https://github.com/Timothyoung97/KAZEngine" target="_blank">KAZEngine (Game Engine)</Link> to help him understand game engine architecture and learn C++. 
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works" passHref scroll={false}>
