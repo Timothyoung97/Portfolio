@@ -27,7 +27,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Timothy Yang
                         </Heading>
-                        <p>Aspiring Game Developer & Software Engineerer</p>
+                        <p>Aspiring Software Engineerer & Game Developer</p>
                     </Box>
 
                     <Box
