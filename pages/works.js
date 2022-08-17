@@ -54,7 +54,7 @@ const Works = () => {
                 <Section delay={0.4}>
                     <Divider my={6}/>
                     <Heading as="h3" fontSize={20} mb={4}>
-                        ⌨️ Hackaton
+                        ⌨️ Hackathon
                     </Heading>
                 </Section>
 
