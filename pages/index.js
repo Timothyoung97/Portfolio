@@ -19,7 +19,7 @@ const Page = () => {
                         </span>
                     </Text>
                     <Text>
-                        I&apos;m a CS junior @ National University of Singapore (NUS)
+                        I&apos;m a CS penultimate @ National University of Singapore (NUS)
                     </Text>
                 </Box>
                 <Box display={{md:'flex'}}>
@@ -27,7 +27,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Timothy Yang
                         </Heading>
-                        <p>Aspiring Software Engineerer & Game Developer</p>
+                        <p>C&apos;est la vie</p>
                     </Box>
 
                     <Box
@@ -55,7 +55,7 @@ const Page = () => {
                         👨‍💻 About Me
                     </Heading>
                     <Paragraph>
-                        Timothy Yang is an incoming 3rd year undergraduate majoring in Computer Science at NUS. He is interested in the field of Computer Grahpics and Game Development. He enjoys creating softwares, games and spending time on his computer. Sometimes, he participates in hackathons to expose himself to new technologies and to learn new things. During his free time, he likes to play <Link href="https://www.cyberpunk.net/" target="_blank">Cyberpunk 2077</Link> and catch up on movies from the 90s. Currently he is working on a project called <Link href="https://github.com/Timothyoung97/KAZEngine" target="_blank">KAZEngine (Game Engine)</Link> to help him understand game engine architecture and learn C++. 
+                        Timothy Yang is a 3rd year undergraduate majoring in Computer Science at NUS. He is interested in the field of Computer Grahpics and Game Development. He enjoys creating softwares, games and spending time on his computer. Sometimes, he participates in hackathons to expose himself to new technologies and to learn new things. During his free time, he likes to play <Link href="https://www.cyberpunk.net/" target="_blank">Cyberpunk 2077</Link> and catch up on movies from the 90s.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works" passHref scroll={false}>
@@ -72,27 +72,27 @@ const Page = () => {
                     </Heading>
                     <BioSection>
                         <BioYear>
-                            2020
+                            2020 Jul
                         </BioYear>
                         Matriculated at National University of Singapore (NUS)
                     </BioSection>
                     <BioSection>
                         <BioYear>
-                            2021
+                            2021 Nov
                         </BioYear>
                         Worked at <Link href="https://www.linkedin.com/company/augmentus-tech/" target="_blank">Augmentus</Link> as a Software Engineer Intern
                     </BioSection>
                     <BioSection>
                         <BioYear>
-                            2022
+                            2022 Jan
                         </BioYear>
                         Volunteered at <Link href="https://www.linkedin.com/company/ethlas/" target="_blank">Ethlas Metaverse</Link> as a Game Developer Intern
                     </BioSection>
                     <BioSection>
                         <BioYear>
-                            Today
+                            2022 Jun
                         </BioYear>
-                        Interning at <Link href="https://www.linkedin.com/company/huawei-singapore/" target="_blank">Huawei Singapore</Link> as a Research & Development Intern
+                        Interned at <Link href="https://www.linkedin.com/company/huawei-singapore/" target="_blank">Huawei Singapore</Link> as a R&D Intern
                     </BioSection>
                 </Section>
 
