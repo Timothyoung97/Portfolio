@@ -7,7 +7,9 @@ import thumbCyberacer from '../public/images/works/cyberacer.png'
 import thumbPeterGriffin from '../public/images/works/CS2103T-ip.png'
 import thumbTuitione from '../public/images/works/CS2103T-tp.png'
 import thumbDDiary from '../public/images/works/ddiary.png'
+import thumbDDiary2 from '../public/images/works/ddiary2_01.jpg'
 import thumbRendr from '../public/images/works/rendr.png'
+import thumbJP from '../public/images/works/jpmorgancfg.png'
 import thumbVoxelBot from '../public/images/works/voxelBot.png'
 import thumbPortfolio from '../public/images/works/portfolio.png'
 
@@ -49,6 +51,11 @@ const Works = () => {
                             A cartoony 2.5D tower defence game developed using C# and Unity 3D Engine
                         </WorkGridItem>
                     </Section>
+                    <Section delay={0.3}>
+                        <WorkGridItem id="ddiary2" title="Doodle's Diary 2" thumbnail={thumbDDiary2}>
+                            Continuation of Doodle's Diary, with more features and better graphics
+                        </WorkGridItem>
+                    </Section>
                 </SimpleGrid>
 
                 <Section delay={0.4}>
@@ -61,7 +68,12 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.5}>
                         <WorkGridItem id="rendr" title="Rendr" thumbnail={thumbRendr}>
-                            A customized report rendering project co-deved during GS ENGage 2021 (Goldman Sachs Engineering Engage)
+                            A customized report rendering project co-deved during "GS ENGage 2021" (Goldman Sachs Engineering Engage)
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay={0.5}>
+                        <WorkGridItem id="jpmorgan" title="Power Path Girl" thumbnail={thumbJP}>
+                            A educational game co-deved during "Code for Good 2022" (JPMorgan Chase & Co.)
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

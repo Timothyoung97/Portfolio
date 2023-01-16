@@ -14,7 +14,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="TuitiONE">
+        <Layout title="Rendr">
             <Container>
                 <Title>
                     Rendr <Badge>2022</Badge>
