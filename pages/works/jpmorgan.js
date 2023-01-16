@@ -4,11 +4,10 @@ import {
     Divider,
     Link,
     List,
-    ListItem,
-    UnorderedList
+    ListItem
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta, MetaB } from '../../components/work'
+import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -20,7 +19,7 @@ const Work = () => {
                     Power Path Girls <Badge>2022</Badge>
                 </Title>
                 <P>
-                    Power Path Girls is a hackathon project developed during the "Hack For Good 2022" Hackathon hosted by JPMorgan Chase & Co. The project aims to empower young female students to pursue a career in their desired field of study by providing them with a platform to learn more about the career.
+                    Power Path Girls is a hackathon project developed during the &quot;Hack For Good 2022&quot; Hackathon hosted by JPMorgan Chase & Co. The project aims to empower young female students to pursue a career in their desired field of study by providing them with a platform to learn more about the career.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

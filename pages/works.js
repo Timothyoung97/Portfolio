@@ -53,7 +53,7 @@ const Works = () => {
                     </Section>
                     <Section delay={0.3}>
                         <WorkGridItem id="ddiary2" title="Doodle's Diary 2" thumbnail={thumbDDiary2}>
-                            Continuation of Doodle's Diary, with more features and better graphics
+                            Continuation of Doodle&apos;s Diary, with more features and better graphics
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
@@ -68,12 +68,12 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.5}>
                         <WorkGridItem id="rendr" title="Rendr" thumbnail={thumbRendr}>
-                            A customized report rendering project co-deved during "GS ENGage 2021" (Goldman Sachs Engineering Engage)
+                            A customized report rendering project co-deved during &quot;GS ENGage 2021&quot; (Goldman Sachs Engineering Engage)
                         </WorkGridItem>
                     </Section>
                     <Section delay={0.5}>
                         <WorkGridItem id="jpmorgan" title="Power Path Girl" thumbnail={thumbJP}>
-                            A educational game co-deved during "Code for Good 2022" (JPMorgan Chase & Co.)
+                            A educational game co-deved during &quot;Code for Good 2022&quot; (JPMorgan Chase & Co.)
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

@@ -20,7 +20,7 @@ const Work = () => {
                     Doodle&apos;s Diary 2 <Badge>2022 Fall</Badge>
                 </Title>
                 <P>
-                    Doodle's Diary 2 is the continuation of Doodle's Diary developed in the spring of 2022. This project aims to extend and polish on the core gameplay of its predecessor with new features and content such as storylines, enemies, towers, and more. The project is co-deved by a team of 6 NUS students during AY22/23 Sem 1 under CS4350 Game Development Project.
+                    Doodle&apos;s Diary 2 is the continuation of Doodle&apos;s Diary developed in the spring of 2022. This project aims to extend and polish on the core gameplay of its predecessor with new features and content such as storylines, enemies, towers, and more. The project is co-deved by a team of 6 NUS students during AY22/23 Sem 1 under CS4350 Game Development Project.
                 </P>
                 <List ml={4} my={4}>
                 <ListItem>
