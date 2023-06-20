@@ -86,13 +86,19 @@ const Page = () => {
                         <BioYear>
                             2022 Jan
                         </BioYear>
-                        Volunteered at <Link href="https://www.linkedin.com/company/ethlas/" target="_blank">Ethlas Metaverse</Link> as a Game Developer Intern
+                        Volunteered at <Link href="https://www.linkedin.com/company/ethlas/" target="_blank">Ethlas Metaverse</Link> as a Game Developer
                     </BioSection>
                     <BioSection>
                         <BioYear>
                             2022 Jun
                         </BioYear>
                         Interned at <Link href="https://www.linkedin.com/company/huawei-singapore/" target="_blank">Huawei Singapore</Link> as a R&D Intern
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>
+                            2023 Jun
+                        </BioYear>
+                        Now at <Link href="https://www.linkedin.com/company/jpmorganchase/" target="_blank">J.P.M Chase</Link> as a Summer Analyst (SWE)
                     </BioSection>
                 </Section>
 
